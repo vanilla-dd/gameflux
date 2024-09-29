@@ -2,7 +2,7 @@
 	import { Button } from './ui/button';
 </script>
 
-<nav class="flex items-center justify-between px-4 py-2">
+<nav class="flex items-center justify-between px-4 py-2 shadow-md">
 	<div class="">logo</div>
 	<div>
 		<a href="/"><Button variant="link">Home</Button> </a>

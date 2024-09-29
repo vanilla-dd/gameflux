@@ -97,5 +97,6 @@
 				</div>
 			</div>
 		</div>
+		<Button>Discover More</Button>
 	</div>
 </div>
