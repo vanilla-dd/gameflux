@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { Marquee } from '@selemondev/svelte-marquee';
-	import '@selemondev/svelte-marquee/dist/style.css';
 	import { Button } from './ui/button';
-	import { CalendarClock, Clock } from 'lucide-svelte';
+	import TournamentSection from './TournamentSection.svelte';
+	import Marquee from './Marquee.svelte';
 	const images = [
 		'among-us.svg',
 		'apex-legends.svg',
@@ -18,7 +17,7 @@
 		'pubg.svg',
 		'r6siege.svg',
 		'rocket.svg',
-		'valorant.svg'
+		'valorant.svg',
 	];
 </script>
 
@@ -35,68 +34,7 @@
 		<Button variant="outline">Create An Account</Button>
 	</div>
 	<div>
-		<Marquee
-			direction="left"
-			fade={true}
-			reverse={false}
-			innerClassName={'gap-10'}
-			pauseOnHover={true}
-		>
-			{#each images as image}
-				<img src={`/${image}`} alt="" class="w-36 object-contain" />
-			{/each}
-		</Marquee>
+		<Marquee {images} />
 	</div>
-	<div class="flex flex-col gap-8 px-8">
-		<p class="text-5xl font-semibold underline decoration-dashed underline-offset-4">Tournament</p>
-		<div class="flex flex-wrap justify-center gap-4">
-			<div class="w-80 rounded-md p-2 outline outline-gray-200">
-				<img
-					src="/fortnite-match.png"
-					alt=""
-					class="aspect-video w-full rounded-md object-cover object-top"
-				/>
-				<div class="text-start">
-					<p class="flex items-center gap-2 text-xs">
-						<CalendarClock class="w-4" />
-						Sept. 1 9:00AM EST
-					</p>
-					<p class="text-lg font-medium">Fortnite: Platinum Tournament</p>
-					<div class="flex flex-wrap gap-2">
-						<p class="rounded-sm bg-gray-100 px-2 text-xs outline outline-1 outline-black/40">PC</p>
-						<p class="rounded-sm bg-gray-100 px-2 text-xs outline outline-1 outline-black/40">
-							Fortnite
-						</p>
-						<p class="rounded-sm bg-gray-100 px-2 text-xs outline outline-1 outline-black/40">
-							Free
-						</p>
-					</div>
-					<div>
-						<div>
-							<p>
-								Prize pool
-								<span>$400</span>
-							</p>
-						</div>
-						<div>
-							<p>
-								Team size
-								<span>4v4</span>
-							</p>
-						</div>
-						<div>
-							<p>
-								Participants
-								<span>14/100</span>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div>
-					<Button>Join Tournament</Button>
-				</div>
-			</div>
-		</div>
-		<Button>Discover More</Button>
-	</div>
+	<TournamentSection />
 </div>
