@@ -1,13 +1,14 @@
-<script lang="ts">
+<script>
 	import { Button } from './ui/button';
+	import { Separator } from './ui/separator';
 </script>
 
-<nav class="flex items-center justify-between px-4 py-2 shadow-md">
-	<div>
+<footer class="flex gap-10 border-t-2 px-8 pb-4 pt-8">
+	<div class="space-y-4">
 		<svg
 			viewBox="-11.0151 67.5115 753.2381 142.8699"
 			xmlns="http://www.w3.org/2000/svg"
-			class="w-28"
+			class="w-40"
 		>
 			<path
 				fill="#343434"
@@ -73,11 +74,41 @@
 				transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"
 			/>
 		</svg>
+		<div class="flex gap-4">
+			<a href="/">
+				<img src="/navbar/facebook.svg" alt="" class="w-6" />
+			</a>
+			<a href="/">
+				<img src="/navbar/twitter.svg" alt="" class="w-6" />
+			</a>
+			<a href="/">
+				<img src="/navbar/instagram.svg" alt="" class="w-6" />
+			</a>
+		</div>
+		<div>© GameFlux 2024 All Right Reserved.</div>
 	</div>
-	<div>
-		<a href="/"><Button variant="link">Home</Button> </a>
-		<a href="/events"><Button variant="link">Events</Button> </a>
-		<a href="/rules"><Button variant="link">Rules</Button> </a>
-		<Button variant="outline">Login</Button>
+	<Separator orientation="vertical" />
+	<div class="flex flex-1 justify-around">
+		<div>
+			<p class="text-xl font-semibold">About GameFlux</p>
+			<div class="flex flex-col items-start">
+				<Button variant={'link'}>
+					<a href="/about">
+						<li>About</li>
+					</a>
+				</Button>
+				<Button variant={'link'}>
+					<a href="/contact"><li>Contact</li></a>
+				</Button>
+				<Button variant={'link'}><a href="/featured"><li>Featured Events</li> </a></Button>
+			</div>
+		</div>
+		<div>
+			<p class="text-xl font-semibold">Legal</p>
+			<div class="flex flex-col items-start">
+				<Button variant={'link'}><a href="/terms"><li>Terms & Conditions</li> </a></Button>
+				<Button variant={'link'}><a href="/privacy"><li>Privacy Policy</li> </a></Button>
+			</div>
+		</div>
 	</div>
-</nav>
+</footer>

@@ -9,9 +9,9 @@
 	<div>
 		<Accordion.Root class="w-full">
 			<Accordion.Item value="item-1">
-				<Accordion.Trigger>Is GamerFlux a trusted site?</Accordion.Trigger>
+				<Accordion.Trigger>Is GameFlux a trusted site?</Accordion.Trigger>
 				<Accordion.Content>
-					Yes. GamerFlux is a secure and reliable platform that follows industry standards, ensuring
+					Yes. GameFlux is a secure and reliable platform that follows industry standards, ensuring
 					a safe experience for all users. Our platform is built with security protocols in place to
 					protect personal data and transactions.
 				</Accordion.Content>
@@ -20,9 +20,9 @@
 				<Accordion.Trigger>How do winning cashouts work?</Accordion.Trigger>
 				<Accordion.Content>
 					Winning cashouts are processed securely through our payment partners. After winning a
-					tournament, your earnings are automatically credited to your GamerFlux account. From
-					there, you can request a withdrawal to your preferred payment method, which typically
-					takes 1-3 business days to process.
+					tournament, your earnings are automatically credited to your GameFlux account. From there,
+					you can request a withdrawal to your preferred payment method, which typically takes 1-3
+					business days to process.
 				</Accordion.Content>
 			</Accordion.Item>
 			<Accordion.Item value="item-3">
@@ -36,7 +36,7 @@
 			<Accordion.Item value="item-4">
 				<Accordion.Trigger>How can I create tournaments?</Accordion.Trigger>
 				<Accordion.Content>
-					Creating tournaments on GamerFlux is simple. Navigate to the "Host a Tournament" section,
+					Creating tournaments on GameFlux is simple. Navigate to the "Host a Tournament" section,
 					provide details such as game, rules, entry fee, and prizes. Once submitted, the tournament
 					will be listed for players to join.
 				</Accordion.Content>
@@ -54,7 +54,7 @@
 				<Accordion.Content>
 					Winners are determined based on the specific rules of the tournament, which are set by the
 					host. Most tournaments are structured with single or double elimination brackets. The
-					tournament host or GamerFlux admins oversee the fairness and completion of each event.
+					tournament host or GameFlux admins oversee the fairness and completion of each event.
 				</Accordion.Content>
 			</Accordion.Item>
 			<Accordion.Item value="item-8">
@@ -68,7 +68,7 @@
 				</Accordion.Content>
 			</Accordion.Item>
 			<Accordion.Item value="item-9">
-				<Accordion.Trigger>How can I improve my ranking on GamerFlux?</Accordion.Trigger>
+				<Accordion.Trigger>How can I improve my ranking on GameFlux?</Accordion.Trigger>
 				<Accordion.Content>
 					Your ranking improves as you participate and perform well in tournaments. Winning games,
 					advancing in brackets, and finishing in top positions will help you climb the leaderboard.
