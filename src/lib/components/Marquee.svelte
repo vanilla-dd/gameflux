@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { Marquee } from '@selemondev/svelte-marquee';
-	import '@selemondev/svelte-marquee/dist/style.css';
 	export let images;
 </script>
 

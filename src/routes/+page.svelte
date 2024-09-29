@@ -4,7 +4,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<main class="min-h-dvh w-full">
+<main class="min-h-dvh w-full space-y-6">
 	<Navbar />
 	<Hero />
 	<Faq />

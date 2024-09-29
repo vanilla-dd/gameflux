@@ -22,19 +22,21 @@
 </script>
 
 <div class="mt-10 flex flex-col items-center gap-3 text-center">
-	<h1 class="max-w-[30ch] text-7xl font-bold">Create your team and win tournaments now!</h1>
-	<p class="max-w-[120ch] text-base">
-		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam in ex eum harum eveniet
-		minus nostrum suscipit sapiente eaque distinctio. Lorem ipsum, dolor sit amet consectetur
-		adipisicing elit. Accusantium, voluptate? Quasi illo modi, velit quia sit quas fuga corrupti
-		aliquid
-	</p>
-	<div>
-		<Button variant="secondary">Discover Tournament</Button>
-		<Button variant="outline">Create An Account</Button>
+	<div class="flex flex-col items-center space-y-6">
+		<div class="flex flex-col items-center space-y-3">
+			<h1 class="max-w-[30ch] text-7xl font-bold">Create your team and win tournaments now!</h1>
+			<p class="max-w-[120ch] text-base">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam in ex eum harum eveniet
+				minus nostrum suscipit sapiente eaque distinctio. Lorem ipsum, dolor sit amet consectetur
+				adipisicing elit. Accusantium, voluptate? Quasi illo modi, velit quia sit quas fuga corrupti
+				aliquid
+			</p>
+		</div>
+		<div class="flex gap-6">
+			<Button variant="secondary">Discover Tournament</Button>
+			<Button variant="outline">Create An Account</Button>
+		</div>
 	</div>
-	<div>
-		<Marquee {images} />
-	</div>
+	<Marquee {images} />
 	<TournamentSection />
 </div>

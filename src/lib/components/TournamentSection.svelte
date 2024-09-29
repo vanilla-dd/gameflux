@@ -130,7 +130,7 @@
 			</div>
 		{/each}
 	</div>
-	<a href="/events" class="self-center rounded-md bg-black text-white">
+	<a href="/events" class="self-center rounded-md">
 		<Button>Discover more</Button>
 	</a>
 </div>

@@ -3,7 +3,9 @@
 </script>
 
 <div class="px-8">
-	<p class="text-4xl font-semibold">FAQ</p>
+	<p class="text-center text-5xl font-semibold underline decoration-dashed underline-offset-4">
+		FAQ
+	</p>
 	<div>
 		<Accordion.Root class="w-full">
 			<Accordion.Item value="item-1">
